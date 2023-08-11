@@ -35,4 +35,7 @@ apiRoutes.post(
   }
 );
 
+apiRoutes.post("/register", register);
+apiRoutes.post("/login", login);
+
 export default apiRoutes;
