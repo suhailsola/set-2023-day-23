@@ -63,7 +63,7 @@ export async function storeImage(req, res, next) {
     req.file = storedFile;
     next();
   } catch (error) {
-    return res.status(403).json({ message: "Error mat", error });
+    return res.status(403).json({ message: "Error storing image", error });
   }
 }
 
