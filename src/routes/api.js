@@ -4,6 +4,7 @@ import uploadImage, {
   storeImage,
   uploadError,
 } from "../middleware/upload/image";
+import { login, register } from "../controllers/auth";
 
 const apiRoutes = Router();
 
